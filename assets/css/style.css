@@ -76,19 +76,19 @@ section.about-section{
     font-size: 31px;
     margin-top: -55%;
 }
-.project-section h2 {
+.skills-section h2 {
     text-transform: uppercase;
     text-align: center;
     font-size: 78px;
     margin-bottom: 40px;
 }
-section.project-section {
+section.skills-section {
     background: beige url(../image/skills.jpeg) no-repeat;
     height: 90vh;
     background-size: cover;
     padding: 35px;
 }
-section.project-section .col {
+section.skills-section .col {
     width: 33%;
     float: left;
     display: inline-block;
@@ -96,7 +96,7 @@ section.project-section .col {
     font-size: 30px;
     font-style: oblique;
   }
-section.project-section .col span{
+section.skills-section .col span{
     margin: 0 auto 4px;
     text-align: center;
     font-size: 60px;
