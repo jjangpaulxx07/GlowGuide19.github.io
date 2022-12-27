@@ -103,4 +103,10 @@ section.skills-section .col span{
 }
 .row-2 {
     padding-top: 18%;
-  }
+}
+section.quote {
+    padding: 65px 50px;
+    text-align: center;
+    background: lightpink;
+    color: beige;
+}
