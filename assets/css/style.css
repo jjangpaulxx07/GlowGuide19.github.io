@@ -113,7 +113,7 @@ section.quote {
 }
 /* Contact Styles */
 section#contact {
-    background: url('../images/contact.jpg') no-repeat;
+    background: url('../image/contacts.jpg') no-repeat;
     background-size: cover;
     background-attachment: inherit;
     height: 920px;
