@@ -187,8 +187,11 @@ span.copyright {
 .carousel {
     margin-bottom: 0rem;
 }
-.carousel body{
+body {
     padding-top: 0rem;
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
     color: #5a5a5a;
+}
+.featurette-divider {
+    margin: 2rem 0;
 }
