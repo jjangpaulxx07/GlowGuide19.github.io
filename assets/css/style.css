@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+body {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    color: #5a5a5a;
+}
 .container {
     width: 1500;
     margin: 0 auto;
@@ -12,6 +17,9 @@
 }
 header#home-header {
     background-color: whitesmoke;
+}
+#about-header {
+    background: whitesmoke;
 }
 img {
     width: 100%;

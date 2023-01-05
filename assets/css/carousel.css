@@ -3,10 +3,10 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
   color: #5a5a5a;
-}
+} 
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -74,9 +74,91 @@ body {
     font-size: 50px;
   }
 }
-
 @media (min-width: 62em) {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+section.quote {
+  font-size: 35px;
+  padding: 65px 50px;
+  text-align: center;
+  background: #818181;
+  color: #ffffff;
+  text-shadow: 3px 1px 50px black, 0 0 52px black, 0 0 44px black;
+}
+/* Footer Styles */
+footer, a {
+  color: rgb(236, 236, 236);
+}
+footer {
+  background: #979797;
+  height: 360px;
+  background-size: cover;
+}
+section.footer-1 .col {
+  vertical-align: top;
+  display: inline-block;
+  width: 37%;
+  padding: 9px;
+}
+
+section.footer-1 .col ul li img {
+  width: 100px !important;
+  margin-top: 10px !important;
+}
+section.footer-1 .col ul li {
+  list-style: none;
+  display: inline-block;
+}
+.footer-1 form {
+  width: 100%;
+  margin-top: 24px;
+}
+.footer-1 input[type="button"] {
+  margin-top: 0;
+  font-size: 11px;
+  padding: 15px 21px;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  width: 110px;
+  text-transform: uppercase;
+}
+input[type="button"] {
+  margin-top: 20px;
+  font-size: 11px;
+  padding: 15px 21px;
+  letter-spacing: 3px;
+  border-radius: 50px;
+  width: 110px;
+  text-transform: uppercase;
+  float: right;
+}
+input[type="button"]:hover{
+  color: black
+}
+.social-media-icon {
+  margin-top: 15px;
+}
+.social-media-icon a {
+  font-size: 45px;
+  text-decoration: none;
+}
+.social-media-icon a:hover {
+  color: #050505;
+}
+.footer-1 input#email {
+  border: 1px solid #fff;
+  border-radius: 20px;
+  margin-bottom: 12px;
+  border-radius: 65px;
+  width: 400px;
+  height: 45px;
+  background: transparent;
+}
+footer h3 {
+  line-height: 25px;
+}
+span.copyright {
+  margin-top: 20px;
 }
