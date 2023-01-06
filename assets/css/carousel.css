@@ -87,3 +87,13 @@ section.quote {
   color: #ffffff;
   text-shadow: 3px 1px 50px black, 0 0 52px black, 0 0 44px black;
 }
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  margin-top: calc(-8 * var(--bs-gutter-y));
+  margin-right: calc(-.5 * var(--bs-gutter-x));
+  margin-left: calc(-.5 * var(--bs-gutter-x));
+}
