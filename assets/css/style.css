@@ -159,6 +159,40 @@ footer h3 {
 span.copyright {
     margin-top: 20px;
 }
+/* About Styles */
+h2.info-title-p1 {
+    font-family: serif;
+    font-size: 49px;
+}
+.info-p1 {
+    margin-top: 24px;
+    font-size: 21px;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px #959493;
+}
+h2.info-title-p2 {
+    font-family: serif;
+    font-size: 49px;
+}
+.info-p2 {
+    margin-top: 24px;
+    font-size: 21px;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px #959493;
+}
+h2.info-title-p3 {
+    font-family: serif;
+    font-size: 49px;
+}
+.info-p3{
+    margin-top: 24px;
+    font-size: 21px;
+    font-family: monospace;
+    text-shadow: 2px 2px 5px #959493;
+}
+
+
+
 /* About Bootstrap */
 .bd-placeholder-img {
     font-size: 1.125rem;
