@@ -85,10 +85,11 @@ section.quote {
     text-shadow: 3px 1px 50px black, 0 0 52px black, 0 0 44px black;
 }
 /* Footer Styles */
-footer, a {
+
+section.footer-1, a {
     color: rgb(236, 236, 236);
 }
-footer {
+section.footer-1 {
     background: #979797;
     height: 360px;
     background-size: cover;
@@ -108,11 +109,11 @@ section.footer-1 .col ul li {
     list-style: none;
     display: inline-block;
 }
-.footer-1 form {
+section.footer-1 form {
     width: 100%;
     margin-top: 24px;
 }
-.footer-1 input[type="button"] {
+section.footer-1 input[type="button"] {
     margin-top: 0;
     font-size: 11px;
     padding: 15px 21px;
@@ -121,7 +122,7 @@ section.footer-1 .col ul li {
     width: 110px;
     text-transform: uppercase;
 }
-input[type="button"] {
+section.footer-1 input[type="button"] {
     margin-top: 20px;
     font-size: 11px;
     padding: 15px 21px;
@@ -131,20 +132,20 @@ input[type="button"] {
     text-transform: uppercase;
     float: right;
 }
-input[type="button"]:hover{
+section.footer-1 input[type="button"]:hover{
     color: black
 }
-.social-media-icon {
+section.footer-1 .social-media-icon {
     margin-top: 15px;
 }
-.social-media-icon a {
+section.footer-1 .social-media-icon a {
     font-size: 45px;
     text-decoration: none;
 }
-.social-media-icon a:hover {
+section.footer-1 .social-media-icon a:hover {
     color: #808080;
 }
-.footer-1 input#email {
+section.footer-1 input#email {
     border: 1px solid #fff;
     border-radius: 20px;
     margin-bottom: 12px;
@@ -153,11 +154,16 @@ input[type="button"]:hover{
     height: 45px;
     background: transparent;
 }
-footer h3 {
+section.footer-1 h3 {
     line-height: 25px;
 }
-span.copyright {
+section.footer-1 span.copyright {
     margin-top: 20px;
+}
+
+.justify-content-end {
+    justify-content: flex-end!important;
+    font-size: 34px;
 }
 /* About Styles */
 h2.info-title-p1 {
@@ -198,9 +204,7 @@ h1.info-text-start{
     font-family: fantasy;
     text-shadow: 2px 2px black;
 }
-.info-text-p{
-    text-align: center;
-}
+
 
 /* About Bootstrap */
 .bd-placeholder-img {
