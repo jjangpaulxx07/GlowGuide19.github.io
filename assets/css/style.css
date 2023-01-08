@@ -190,8 +190,17 @@ h2.info-title-p3 {
     font-family: monospace;
     text-shadow: 2px 2px 5px #959493;
 }
-
-
+h1.info-text-start{
+    text-align-last: center;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    text-shadow: 2px 2px black;
+}
+.info-text-p{
+    text-align: center;
+}
 
 /* About Bootstrap */
 .bd-placeholder-img {
