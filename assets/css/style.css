@@ -95,15 +95,15 @@ section.footer-1 {
     background-size: cover;
 }
 section.footer-1 .col {
-    vertical-align: top !important;
-    display: inline-block !important;
-    width: 26% !important;
-    padding: 35px !important;
+    vertical-align: top ;
+    display: inline-block;
+    width: 26% ;
+    padding: 35px ;
 
 }
 section.footer-1 .col ul li img {
-    width: 100px !important;
-    margin-top: 10px !important;
+    width: 100px ;
+    margin-top: 10px ;
 }
 section.footer-1 .col ul li {
     list-style: none;
